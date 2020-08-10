@@ -3,10 +3,16 @@ Internally it uses state machine implemented in java.io.StreamTokenizer with add
 If intention of this trial task was to check candidate's ability to work with state machines, I can replace StreamTokenizer with my custom implementation in no time.
 
 Usage:
+
+```
 mvn package
 java -classpath target/test-1.0-SNAPSHOT.jar com.codelinecounter.PathCounter src
+```
 
 This produces following output:
+
+
+```
 src : 153
     main : 85
         java : 85
@@ -25,3 +31,4 @@ src : 153
             TestEmpty.java : 0
             TestGeneric1.java : 5
             TestGeneric2.java : 3
+```
